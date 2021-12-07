@@ -4,7 +4,7 @@
 	
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
-	<version>4.0.0</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	
 	<name>maven-web-application</name>
@@ -21,11 +21,10 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.234.75.79:9000/</sonar.host.url>
+		<sonar.host.url>http://13.233.56.105:9000/</sonar.host.url>
                 <sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>  
-              
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+              	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
@@ -98,14 +97,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Nexus Releases Repository</name>
-	      <url>http://3.109.121.97:9981/nexus/repository/wallmart-release/</url>
+	      <name>Wallmart Releases Repository</name>
+	      <url>http://35.154.160.4:8082/nexus/repository/wallmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Nexus Snapshot Repository </name>
-	      <url>http://3.109.121.97:9981/nexus/repository/wallmart-snapshot/</url>
+	      <name>Wallmart Snapshot Repository</name>
+	      <url>http://35.154.160.4:8082/nexus/repository/wallmart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
